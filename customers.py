@@ -15,5 +15,5 @@ class Customer(object):
     # TODO: need to implement this 
     
     def get_by_email(self, email):
-        return email
-
+        customer = Customer(self.first_name, self.last_name, self.email, self.password)
+        return customer
